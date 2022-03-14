@@ -35,11 +35,4 @@ Upon selecting any folder all the files should be grouped by file types.
 
 > Note: `Changes cannot be undone` Backup your files before expermenting with the tool.
 
-Verify the deployment by navigating to your server address in
-your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
 **Free Tool!**
