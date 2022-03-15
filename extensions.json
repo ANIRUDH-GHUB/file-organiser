@@ -1,4 +1,4 @@
-extension = {
+{
   ".!BT": {
     "description": "BitTorrent Incomplete Download File",
     "type": "Misc"

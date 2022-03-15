@@ -1,13 +1,15 @@
-from extension import extension;
 from commonFiles import commonFiles;
 
 import shutil;
 from os import listdir, makedirs, startfile;
 from os.path import isfile, join;
+import json
 
 from tkinter import filedialog
 from tkinter import *
 
+with open("extensions.json") as f:
+    extensions = json.load(f)
 
 def chooseFolder():
     root = Tk()
@@ -17,7 +19,7 @@ def chooseFolder():
 
 def getFileExtension(fileName):
     fileType = ('.' + fileName.split(".")[-1]).upper();
-    return extension[fileType] if fileType in extension else "Unknown";
+    return extensions[fileType] if fileType in extensions else "Unknown";
 
 def createFolder(folderName):
     try:
