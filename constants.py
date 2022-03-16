@@ -1,6 +1,6 @@
-#Types
-MISC= 'MISC';
-Unknown= 'Unknown';
+# Types
+MISC = 'MISC'
+Unknown = 'Unknown'
 
 commonFiles = set([
     "image",
