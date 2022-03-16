@@ -1,3 +1,7 @@
+# Types
+MISC = 'MISC'
+Unknown = 'Unknown'
+
 commonFiles = set([
     "image",
     "audio",
