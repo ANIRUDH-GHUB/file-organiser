@@ -13,8 +13,7 @@ def deleteJunkFiles(junkFilePaths):
                 os.remove(filePath+"\\"+file)
             except:
                 undeletedFiles += 1
-                
-                
+                                
         fileList = os.listdir(filePath)
         folderSizeAfterDeletion = len(fileList)
         
