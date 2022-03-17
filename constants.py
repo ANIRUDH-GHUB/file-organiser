@@ -9,3 +9,8 @@ commonFiles = set([
     "pdf",
     "compressed"
 ])
+
+junkFilePaths = ["C://Windows//Prefetch",
+                 "C://Windows//Temp",
+                 "C://Users//WELCOME//AppData//Local//Temp"]
+

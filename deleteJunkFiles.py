@@ -1,5 +1,6 @@
 import os
- 
+from constants import junkFilePaths
+
 def deleteJunkFiles(junkFilePaths):
     for filePath in junkFilePaths:
         
@@ -22,7 +23,6 @@ def deleteJunkFiles(junkFilePaths):
     
 #Example call showing temp file deletion by passing some junk folder paths
  
-junkFilePaths = ["C://Windows//Prefetch","C://Windows//Temp","C://Users//WELCOME//AppData//Local//Temp"]
 deleteJunkFiles(junkFilePaths)
 
 
